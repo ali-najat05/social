@@ -56,10 +56,221 @@
     border-radius: 50%;
 }
 
-/* For Mobile: */
-@media only screen and (max-width:500px) {
+/* For laptop-L: */
+@media only screen and (max-width:1280px) {
 
-    .body, .link, .link1, .my-img, .p, .face, .inst, .snap, .tiktok, .telegram {
-      width: 100%;}
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 50%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 10%;
+        margin-left: 33%;
+        text-align: center;
+        border-radius: 5%;
+        width: 35%; height: 450px; 
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .link1{
+        float: left;
+    }
+
+    .face, .inst, .snap, .tiktok, .telegram {
+        width: 10%;
+    }
+
+}
+
+
+/* For laptop: */
+@media only screen and (max-width:1024px) {
+
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 50%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 10%;
+        margin-left: 33%;
+        text-align: center;
+        border-radius: 5%;
+        width: 35%; height: 450px; 
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .link1{
+        float: left;
+        margin-top: 4%;
+    }
+
+}
+
+/* For Tablet: */
+@media only screen and (max-width:768px) {
+
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 50%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 10%;
+        margin-left: 26%;
+        text-align: center;
+        border-radius: 5%;
+        width: 45%; height: 450px; 
+    }
+
+    .link1{
+        float: left;
+        margin-top: 4%;
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .face, .inst, .snap, .tiktok, .telegram {
+        width: %;
+    }
+    
+}
+
+
+
+
+
+/* For Mobile: */
+@media only screen and (max-width:640px) {
+
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 55%;
+        height: 40%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 25%;
+        margin-left: 15%;
+        text-align: center;
+        border-radius: 5%;
+        width: 65%; height: 400px; 
+    }
+
+    .link1{
+        float: left;
+        margin-top: 4%;
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .face, .inst, .snap, .tiktok, .telegram {
+        width: 15%;
+    }
+
+}
+
+/* For Mobile: */
+@media only screen and (max-width:475px) {
+
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 55%;
+        height: 40%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 25%;
+        margin-left: 15%;
+        text-align: center;
+        border-radius: 5%;
+        width: 65%; height: 400px; 
+    }
+
+    .link1{
+        float: left;
+        margin-top: 4%;
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .face, .inst, .snap, .tiktok, .telegram {
+        width: 15%;
+    }
+
+}
+
+/* For Mobile: */
+@media only screen and (max-width:400px) {
+
+    .body{
+        width: 100%;
+    }
+
+    .my-img{
+        width: 55%;
+        height: 40%;
+    }
+    
+    .link{
+        border: groove rgba(0,0,0,0.1);
+        box-shadow: 5px 5px 20px ;
+        margin-top: 30%;
+        margin-left: 9%;
+        text-align: center;
+        border-radius: 5%;
+        width: 75%; height: 400px; 
+    }
+
+    .link1{
+        float: left;
+        margin-top: 4%;
+    }
+
+    .name, .num{
+        font-size: 20px;
+    }
+
+    .face, .inst, .snap, .tiktok, .telegram {
+        width: 15%;
+    }
 
 }
